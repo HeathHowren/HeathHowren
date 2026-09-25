@@ -4,7 +4,7 @@ I reverse engineer things. Mostly Windows binaries, kernel drivers and firmware,
 
 I've been doing this publicly as **Cyborg Elf** since 2015, first on YouTube and now through [Game Reversal Club](https://gamereversal.club), where I teach reverse engineering on software you own. By day I'm a cyber research engineer.
 
-[gamereversal.club](https://gamereversal.club) · [YouTube](https://www.youtube.com/cyborgelf) · [Forum](https://gamereversal.club/forum/) · [Discord](https://discord.gg/NwRFmp3J2J) · [LinkedIn](https://www.linkedin.com/in/heathhowren)
+[gamereversal.club](https://gamereversal.club) · [YouTube](https://www.youtube.com/cyborgelf) · [Forum](https://gamereversal.club/forum/) · [Discord](https://discord.gg/NwRFmp3J2J) · [LinkedIn](https://www.linkedin.com/in/heath-howren/)
 
 ## What I'm working on
 
@@ -29,8 +29,7 @@ Vulnerability research, reverse engineering, hardware and firmware RE, or CNO de
 heath@gamereversal.club · [heathhowren@yahoo.com](mailto:heathhowren@yahoo.com)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HeathHowren&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub stats" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeathHowren&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" height="160">
+  <img src="github-metrics.svg" alt="GitHub metrics">
 </p>
 
 <sub>Game Reversal Club is a personal project, funded and run independently. Nothing there is affiliated with, endorsed by, or representative of any employer, client, or institution.</sub>
