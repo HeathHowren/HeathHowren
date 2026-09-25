@@ -28,10 +28,8 @@ Vulnerability research, reverse engineering, hardware and firmware RE, or CNO de
 
 heath@gamereversal.club · [heathhowren@yahoo.com](mailto:heathhowren@yahoo.com)
 
-<!-- metrics card: re-enable once METRICS_TOKEN is set and the Metrics workflow has run
 <p align="center">
   <img src="github-metrics.svg" alt="GitHub metrics">
 </p>
--->
 
 <sub>Game Reversal Club is a personal project, funded and run independently. Nothing there is affiliated with, endorsed by, or representative of any employer, client, or institution.</sub>
