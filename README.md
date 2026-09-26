@@ -10,9 +10,11 @@ I've been doing this publicly as **Cyborg Elf** since 2015, first on YouTube and
 
 **[Pointer Lab](https://github.com/HeathHowren/Pointer-Lab)** is a memory research tool for Windows x64 that I wrote in C++20 because I wanted something I fully understood. It attaches to a process, scans and tracks values, freezes and writes them, disassembles, sets breakpoints and injects DLLs. It ships as one statically-linked exe with a practice target so you have something safe to point it at. GPLv2.
 
+**[Signature Lab](https://github.com/HeathHowren/Signature-Lab)** is an x64dbg plugin I wrote to make byte signatures that survive a game update. It decodes every instruction so it only wildcards the bytes that actually move, checks the result against the whole module, and when the code isn't unique it signs whatever refers to it instead and gives you the math to get back. It outputs x64dbg, IDA, code+mask, C++ and Pointer Lab patterns. MIT.
+
 **The Game Hacker's Handbook** is the book I wish I'd had when I started. 6 parts, 44 chapters, starting at memory scanning and ending in kernel mode and how anti-cheats work. Every example compiles under MSVC /W4 against lab targets you're allowed to poke at.
 
-**Older stuff** like [CSGO-Cheats](https://github.com/HeathHowren/CSGO-Cheats), the [DX9 Kiero hook](https://github.com/HeathHowren/CSGO-ImGui-DX9-Kiero-Hook), [HWID-Info-Grabber](https://github.com/HeathHowren/HWID-Info-Grabber) and [Pattern-Scanning](https://github.com/HeathHowren/Pattern-Scanning) is from my early years. I leave it up because people still learn from it, but Pointer Lab is a better picture of how I write code now.
+**Older stuff** like [CSGO-Cheats](https://github.com/HeathHowren/CSGO-Cheats), the [DX9 Kiero hook](https://github.com/HeathHowren/CSGO-ImGui-DX9-Kiero-Hook), [HWID-Info-Grabber](https://github.com/HeathHowren/HWID-Info-Grabber) and [Pattern-Scanning](https://github.com/HeathHowren/Pattern-Scanning) is from my early years. I leave it up because people still learn from it, but Pointer Lab and Signature Lab are a better picture of how I write code now.
 
 ## What I work with
 
