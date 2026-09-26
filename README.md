@@ -12,9 +12,20 @@ I've been doing this publicly as [**Cyborg Elf**](https://www.youtube.com/c/cybo
 
 **[Signature Lab](https://github.com/HeathHowren/Signature-Lab)** is an x64dbg plugin I wrote to make byte signatures that survive a game update. It decodes every instruction so it only wildcards the bytes that actually move, checks the result against the whole module, and when the code isn't unique it signs whatever refers to it instead and gives you the math to get back. It outputs x64dbg, IDA, code+mask, C++ and Pointer Lab patterns. MIT.
 
+**Smaller tools** that go with them, all MIT:
+
+- **[sigscan](https://github.com/HeathHowren/sigscan)** is a single-header C++20 pattern scanner. It reads x64dbg, IDA, code+mask and Cheat Engine style signatures and finds them in a buffer, a file or a live process.
+- **[iretable-tools](https://github.com/HeathHowren/iretable-tools)** converts, diffs, rebases and lints Pointer Lab project files, and imports Cheat Engine tables.
+- **[hookscan](https://github.com/HeathHowren/hookscan)** finds the inline, import and export hooks in a running process by comparing its modules with the files on disk.
+- **[debug-bench](https://github.com/HeathHowren/debug-bench)** runs about thirty anti-debug checks against itself and tells you which ones fire. Point your debugger-hiding setup at it.
+- **[procpcap](https://github.com/HeathHowren/procpcap)** captures one process's network traffic to a pcapng for Wireshark.
+- **[openxr-pose-layer](https://github.com/HeathHowren/openxr-pose-layer)** is an OpenXR API layer that logs, records and replays head and controller tracking.
+- **[pe-mcp](https://github.com/HeathHowren/pe-mcp)** is an MCP server that gives an AI agent static analysis of a PE file: imports, strings, disassembly, xrefs and signatures.
+- **[claude-game-re-plugin](https://github.com/HeathHowren/claude-game-re-plugin)** is a Claude Code plugin that teaches the Handbook's workflows and drives Pointer Lab, pe-mcp and the rest. It blocks memory writes unless you turn them on.
+
 [**The Game Hacker's Handbook**](https://gamereversal.club/books/game-hackers-handbook/) is the book I wish I'd had when I started. 6 parts, 44 chapters, starting at memory scanning and ending in kernel mode and how anti-cheats work. Every example compiles under MSVC /W4 against lab targets you're allowed to poke at.
 
-**Older stuff** like [CSGO-Cheats](https://github.com/HeathHowren/CSGO-Cheats), the [DX9 Kiero hook](https://github.com/HeathHowren/CSGO-ImGui-DX9-Kiero-Hook), [HWID-Info-Grabber](https://github.com/HeathHowren/HWID-Info-Grabber) and [Pattern-Scanning](https://github.com/HeathHowren/Pattern-Scanning) is from my early years. I leave it up because people still learn from it, but Pointer Lab and Signature Lab are a better picture of how I write code now.
+**Older stuff** like [CSGO-Cheats](https://github.com/HeathHowren/CSGO-Cheats), the [DX9 Kiero hook](https://github.com/HeathHowren/CSGO-ImGui-DX9-Kiero-Hook), [HWID-Info-Grabber](https://github.com/HeathHowren/HWID-Info-Grabber) and [Pattern-Scanning](https://github.com/HeathHowren/Pattern-Scanning) is from my early years. I leave it up because people still learn from it, but the tools above are a better picture of how I write code now. sigscan replaces Pattern-Scanning.
 
 ## What I work with
 
