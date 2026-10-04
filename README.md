@@ -27,6 +27,12 @@ I've been doing this publicly as [**Cyborg Elf**](https://www.youtube.com/c/cybo
 
 **Older stuff** like [CSGO-Cheats](https://github.com/HeathHowren/CSGO-Cheats), the [DX9 Kiero hook](https://github.com/HeathHowren/CSGO-ImGui-DX9-Kiero-Hook), [HWID-Info-Grabber](https://github.com/HeathHowren/HWID-Info-Grabber) and [Pattern-Scanning](https://github.com/HeathHowren/Pattern-Scanning) is from my early years. I leave it up because people still learn from it, but the tools above are a better picture of how I write code now. sigscan replaces Pattern-Scanning.
 
+## Research
+
+**[Continuous Cheat Detection with Calibrated Decision Models](https://doi.org/10.5281/zenodo.23138396)** (2026) is a position paper on behavioral anti-cheat. Cheats that run entirely off the host, like DMA hardware or screen capture with hardware input injection, can evade client-side anti-cheat, but they still have to change what the player does. The paper proposes an architecture that scores each window of play with calibrated decision models, sets ban thresholds from the cost of errors, and by default needs a human to confirm any ban. It's a preprint, not peer reviewed, CC BY 4.0. I'm looking for funding and data partners to test it.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23138396.svg)](https://doi.org/10.5281/zenodo.23138396)
+
 ## What I work with
 
 C and C++ most of the time, Python for glue, Rust when I get the chance, and enough x86/x64 assembly to read what the compiler did. IDA Pro, Ghidra, WinDbg, x64dbg, QEMU and Wireshark for analysis. Windows user and kernel mode, Linux, and embedded boards over UART or JTAG. Firmware extraction and emulation, fuzzing, exploit development.
